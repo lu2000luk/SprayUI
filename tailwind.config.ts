@@ -8,7 +8,14 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {},
+		colors: {
+			'text': '#f2f6ec',
+			'background': '#0c1007',
+			'primary': '#b8d68f',
+			'secondary': '#5d8429',
+			'accent': '#9bd252',
+		   },		   
 	},
 
 	plugins: [typography, forms, containerQueries, aspectRatio]

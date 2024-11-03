@@ -1,3 +1,36 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --text: #f2f6ec;
+    --background: #0c1007;
+    --primary: #b8d68f;
+    --secondary: #5d8429;
+    --accent: #9bd252;
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--background);
+}
+
+* {
+    color: var(--text);
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*::selection {
+    background-color: var(--text);
+    color: var(--background);
+}
+
+.gridbg {
+    background: url("./grid.svg");
+    background-size: 50%;
+    background-repeat: repeat;
+}

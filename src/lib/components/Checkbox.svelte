@@ -1,0 +1,1 @@
+<input type="checkbox" checked class="p-3 checked:bg-secondary appearance-none focus:outline-none focus:border-none hover:bg-accent checked:outline-none checked:border-none">
