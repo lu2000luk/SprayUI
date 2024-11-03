@@ -49,16 +49,16 @@
 <div class="my-20"></div>
 <div class="flex justify-center">
     <div class="components grid grid-cols-4 gap-6">
-        <Component name="Button" link="">
+        <Component name="Button" link="https://github.com/lu2000luk/SprayUI/blob/master/src/lib/components/Button.svelte">
             <Button>Hello world!</Button>
         </Component>
-        <Component name="Badge" link="">
+        <Component name="Badge" link="https://github.com/lu2000luk/SprayUI/blob/master/src/lib/components/Badge.svelte">
             <Badge>Admin</Badge>
         </Component>
-        <Component name="Input" link="">
+        <Component name="Input" link="https://github.com/lu2000luk/SprayUI/blob/master/src/lib/components/Input.svelte">
             <Input placeholder="Type something..." />
         </Component>
-        <Component name="Card" link="">
+        <Component name="Card" link="https://github.com/lu2000luk/SprayUI/blob/master/src/lib/components/Card.svelte">
             <Card>
                 <div class="p-4">
                     <h1 class="text-2xl">Card Title</h1>
@@ -66,16 +66,16 @@
                 </div>
             </Card>
         </Component>
-        <Component name="Checkbox" link="">
+        <Component name="Checkbox" link="https://github.com/lu2000luk/SprayUI/blob/master/src/lib/components/Checkbox.svelte">
             <Checkbox />
         </Component>
-        <Component name="Avatar" link="">
+        <Component name="Avatar" link="https://github.com/lu2000luk/SprayUI/blob/master/src/lib/components/Avatar.svelte">
             <Avatar image="https://unsplash.it/100/100" />
         </Component>
-        <Component name="Radio" link="">
+        <Component name="Radio" link="https://github.com/lu2000luk/SprayUI/blob/master/src/lib/components/Radio.svelte">
             <Radio radios={["A", "B", "C"]} name="Example" />
         </Component>
-        <Component name="Link" link="">
+        <Component name="Link" link="https://github.com/lu2000luk/SprayUI/blob/master/src/lib/components/Link.svelte">
             <Link link="https://lu2000luk.com/">Website</Link>
         </Component>
     </div>
